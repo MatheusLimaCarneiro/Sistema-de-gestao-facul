@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const EquipmentListDashboard = ({ equipmentList }) => {
   return (
@@ -24,7 +24,9 @@ const EquipmentListDashboard = ({ equipmentList }) => {
             ))
           ) : (
             <tr>
-              <td colSpan="4" className="text-center px-4 py-2 border">Nenhum equipamento registrado</td>
+              <td colSpan="4" className="text-center px-4 py-2 border">
+                Nenhum equipamento registrado
+              </td>
             </tr>
           )}
         </tbody>
