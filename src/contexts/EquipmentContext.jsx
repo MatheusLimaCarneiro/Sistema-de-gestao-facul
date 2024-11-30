@@ -44,6 +44,7 @@ export const EquipmentProvider = ({ children }) => {
     setEquipmentList(updatedList);
     saveEquipmentToLocalStorage(updatedList);
   };
+  
 
   return (
     <EquipmentContext.Provider
