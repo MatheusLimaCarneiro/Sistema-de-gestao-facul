@@ -6,7 +6,7 @@ import { NavBar } from "./components/NavBar";
 import Dashboard from "./pages/Dashboard";
 import { CadastroEquipamento } from "./pages/RegistrationEquipment";
 import { Controle } from "./pages/Control";
-import { Manutencao } from "./pages/manutencao";
+import { Manutencao } from "./pages/ManutencaoTemp";
 
 const App = () => {
   return (
